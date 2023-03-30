@@ -9,11 +9,9 @@ const Main = () => {
                 <Blogs></Blogs>
             </div>
 
-            <div className='w-2/6 border'>
+            <div className='w-2/6'>
                 <SideCart></SideCart>
-            </div>
-            
-            
+            </div>  
         </div>
     );
 };
