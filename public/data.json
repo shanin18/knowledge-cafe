@@ -5,7 +5,7 @@
         "title": "10 Tips for Writing Clean Code",
         "image": "https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1506&q=80",
         "cover_image": "https://example.com/blog1/cover.jpg",
-        "author_image": "https://example.com/authors/john-smith.jpg",
+        "author_image": "https://media.istockphoto.com/id/1355110818/photo/studio-shot-of-a-handsome-and-happy-young-man-posing-against-a-grey-background.jpg?b=1&s=170667a&w=0&k=20&c=fgZ95gwJ2peiSTBM9G8CmGDvHwYaSHDdjg8DBF-a4_k=",
         "read_time": "10 min",
         "published_date": "2022-01-01"
     },
@@ -15,7 +15,7 @@
         "title": "An Introduction to Machine Learning",
         "image": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80",
         "cover_image": "https://example.com/blog2/cover.jpg",
-        "author_image": "https://example.com/authors/jane-doe.jpg",
+        "author_image": "https://media.istockphoto.com/id/910448218/photo/from-here-on-the-only-way-youll-go-is-up.jpg?s=612x612&w=0&k=20&c=DvChZTmGiaRpP7eF_XpDpqGw2Jq5Vu0yVTKSCyXHi1U=",
         "read_time": "15 min",
         "published_date": "2022-02-15"
     },
@@ -25,7 +25,7 @@
         "title": "5 Ways to Improve Your Website Performance",
         "image": "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
         "cover_image": "https://example.com/blog3/cover.jpg",
-        "author_image": "https://example.com/authors/tom-johnson.jpg",
+        "author_image": "https://media.istockphoto.com/id/629517412/photo/i-pride-myself-on-delivering-nothing-but-the-best-results.jpg?s=612x612&w=0&k=20&c=QMc75kSnA4Y1140onn37wVDMXlyJ1vYeK2etxb2lX0s=",
         "read_time": "8 min",
         "published_date": "2022-03-10"
     },
@@ -35,7 +35,7 @@
         "title": "How to Secure Your Web Application",
         "image": "https://images.unsplash.com/photo-1550439062-609e1531270e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
         "cover_image": "https://example.com/blog4/cover.jpg",
-        "author_image": "https://example.com/authors/emily-chen.jpg",
+        "author_image": "https://media.istockphoto.com/id/1372735016/photo/shot-of-a-young-businessman-in-his-office.jpg?s=612x612&w=0&k=20&c=QhOQsB9_-VBaKcZSy8jfFtK1kyFgrEkbirVuYfzuSyY=",
         "read_time": "12 min",
         "published_date": "2022-04-02"
     },
@@ -45,7 +45,7 @@
         "title": "Debugging Techniques for JavaScript Developers",
         "image": "https://images.unsplash.com/photo-1542903660-eedba2cda473?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
         "cover_image": "https://example.com/blog5/cover.jpg",
-        "author_image": "https://example.com/authors/david-kim.jpg",
+        "author_image": "https://media.istockphoto.com/id/1185368785/photo/portrait-of-handsome-young-man-with-crossed-arms.jpg?s=612x612&w=0&k=20&c=FDzs7yF8w0eZydF7CuhXkCYL8yIuumjXlcgwXRUBcyA=",
         "read_time": "20 min",
         "published_date": "2022-05-20"
     },
@@ -55,7 +55,7 @@
         "title": "Introduction to Responsive Web Design",
         "image": "https://images.unsplash.com/photo-1509718443690-d8e2fb3474b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
         "cover_image": "https://example.com/blog6/cover.jpg",
-        "author_image": "https://example.com/authors/maria-rodriguez.jpg",
+        "author_image": "https://media.istockphoto.com/id/973066432/photo/work-hard-and-watch-success-take-shape.jpg?s=612x612&w=0&k=20&c=9U1WD4gB8mBDbNljxf81EiAtvwbbaWVVGg-NL39AQSA=",
         "read_time": "10 min",
         "published_date": "2022-06-10"
     }
