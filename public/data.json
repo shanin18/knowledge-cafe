@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1362,
+        "author": "John Smith",
+        "title": "10 Tips for Writing Clean Code",
+        "image": "https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1506&q=80",
+        "cover_image": "https://example.com/blog1/cover.jpg",
+        "author_image": "https://example.com/authors/john-smith.jpg",
+        "read_time": "10 min",
+        "published_date": "2022-01-01"
+    },
+    {
+        "id": 2741,
+        "author": "Jane Doe",
+        "title": "An Introduction to Machine Learning",
+        "image": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80",
+        "cover_image": "https://example.com/blog2/cover.jpg",
+        "author_image": "https://example.com/authors/jane-doe.jpg",
+        "read_time": "15 min",
+        "published_date": "2022-02-15"
+    },
+    {
+        "id": 3982,
+        "author": "Tom Johnson",
+        "title": "5 Ways to Improve Your Website Performance",
+        "image": "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        "cover_image": "https://example.com/blog3/cover.jpg",
+        "author_image": "https://example.com/authors/tom-johnson.jpg",
+        "read_time": "8 min",
+        "published_date": "2022-03-10"
+    },
+    {
+        "id": 4016,
+        "author": "Emily Chen",
+        "title": "How to Secure Your Web Application",
+        "image": "https://images.unsplash.com/photo-1550439062-609e1531270e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        "cover_image": "https://example.com/blog4/cover.jpg",
+        "author_image": "https://example.com/authors/emily-chen.jpg",
+        "read_time": "12 min",
+        "published_date": "2022-04-02"
+    },
+    {
+        "id": 5354,
+        "author": "David Kim",
+        "title": "Debugging Techniques for JavaScript Developers",
+        "image": "https://images.unsplash.com/photo-1542903660-eedba2cda473?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        "cover_image": "https://example.com/blog5/cover.jpg",
+        "author_image": "https://example.com/authors/david-kim.jpg",
+        "read_time": "20 min",
+        "published_date": "2022-05-20"
+    },
+    {
+        "id": 6208,
+        "author": "Maria Rodriguez",
+        "title": "Introduction to Responsive Web Design",
+        "image": "https://images.unsplash.com/photo-1509718443690-d8e2fb3474b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        "cover_image": "https://example.com/blog6/cover.jpg",
+        "author_image": "https://example.com/authors/maria-rodriguez.jpg",
+        "read_time": "10 min",
+        "published_date": "2022-06-10"
+    }
+]
