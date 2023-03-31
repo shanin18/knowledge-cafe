@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Blogs from '../Blogs/Blogs';
+import BlogsContainer from '../BlogsContainer/BlogsContainer';
 import SideCart from '../SideCart/SideCart';
 
 // react Toast
@@ -30,8 +30,6 @@ const Main = () => {
         
     }
 
-    console.log(titles)
-
     useEffect(()=>{
         fetch("data.json")
         .then(res => res.json())
@@ -39,12 +37,12 @@ const Main = () => {
     },[])
 
     return (
-        <div className='py-7 border-t flex gap-6'>
-            <div className='w-4/6'>
-                <Blogs handleReadTime={handleReadTime} handleBookmark={handleBookmark} blogs={blogs}></Blogs>
+        <div className='py-7 border-t mx-3 md:mx-0 md:flex gap-6'>
+            <div className='md:w-4/6'>
+                <BlogsContainer handleReadTime={handleReadTime} handleBookmark={handleBookmark} blogs={blogs}></BlogsContainer>
             </div>
 
-            <div className='w-2/6'>
+            <div className='md:w-2/6'>
                 <SideCart timeSpent={timeSpent} totalBookmark={totalBookmark} titles={titles}></SideCart>
             </div>  
             <ToastContainer></ToastContainer>
