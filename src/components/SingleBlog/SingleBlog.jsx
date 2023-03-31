@@ -2,11 +2,9 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBookmark } from "@fortawesome/fontawesome-free-regular";
 
-const SingleBlog = (props) => {
-  const { image, author_image, author, published_date, read_time, title } =
-    props.blog;
+const SingleBlog = ({blog, handleReadTime,handleBookmark}) => {
+  const { image, author_image, author, published_date, read_time, title,id } = blog;
 
-  const handleReadTime = props.handleReadTime;
 
   return (
     <div className="border-b last:border-none">
@@ -29,7 +27,7 @@ const SingleBlog = (props) => {
 
           <div className="flex items-center text-xl text-gray-500">
             <p className="mr-3">{read_time} min read </p>
-            <p className="cursor-pointer"><FontAwesomeIcon icon={faBookmark} /></p>
+            <p onClick={()=> handleBookmark(id)} className="cursor-pointer"><FontAwesomeIcon icon={faBookmark} /></p>
           </div>
         </div>
 
