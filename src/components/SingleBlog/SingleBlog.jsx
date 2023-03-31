@@ -5,7 +5,9 @@ import { faBookmark } from "@fortawesome/fontawesome-free-regular";
 const SingleBlog = (props) => {
   const { image, author_image, author, published_date, read_time, title } =
     props.blog;
-  console.log(props.blog);
+
+  const handleReadTime = props.handleReadTime;
+
   return (
     <div className="border-b last:border-none">
       <div>
@@ -26,7 +28,7 @@ const SingleBlog = (props) => {
           </div>
 
           <div className="flex items-center text-xl text-gray-500">
-            <p className="mr-3">{read_time} read </p>
+            <p className="mr-3">{read_time} min read </p>
             <p className="cursor-pointer"><FontAwesomeIcon icon={faBookmark} /></p>
           </div>
         </div>
@@ -37,10 +39,11 @@ const SingleBlog = (props) => {
           <p>#programming</p>
         </div>
 
+        {/* mark as read button */}
         <div>
-          <a href="" className="text-[#6047EC] text-xl font-semibold underline">
+          <button onClick={()=> handleReadTime(read_time)} className="text-[#6047EC] text-xl font-semibold hover:underline">
             Mark as read
-          </a>
+          </button>
         </div>
       </div>
     </div>
