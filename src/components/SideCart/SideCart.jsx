@@ -4,7 +4,7 @@ const SideCart = ({timeSpent, totalBookmark, titles}) => {
     return (
         <div>
             <div className='py-6 border border-[#6047EC] rounded-xl text-center bg-[#6047ec1a]'>
-                <h2 className='text-[#6047EC] text-2xl font-bold'>Spent time on read : {timeSpent} min</h2>
+                <h2 className='text-[#6047EC] text-2xl font-bold p-3'>Spent time on read : {timeSpent} min</h2>
             </div>
 
             <div className='p-7 bg-[#1111110d] rounded-xl mt-6'>

@@ -16,7 +16,7 @@ const Header = () => {
                 <a href="/contact" className='font-semibold text-lg hover:text-[#6047EC]'>Contact</a>
             </div>
 
-            <div className='mt-5 md:mt-0'>
+            <div className='mt-5 md:mt-0 cursor-pointer'>
                 <img src={userImage} alt="user-image" className='w-12 rounded-full bg-gray-300'/>
             </div>
         </div>
