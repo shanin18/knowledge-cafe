@@ -7,11 +7,11 @@ const SingleBlog = (props) => {
     props.blog;
   console.log(props.blog);
   return (
-    <div className="border-b">
+    <div className="border-b last:border-none">
       <div>
         <img src={image} alt="blog-image" className="rounded-xl" />
       </div>
-      <div className="py-9">
+      <div className="pb-9">
         <div className="my-8 flex justify-between items-center">
           <div className="flex items-center">
             <img
@@ -27,7 +27,7 @@ const SingleBlog = (props) => {
 
           <div className="flex items-center text-xl text-gray-500">
             <p className="mr-3">{read_time} read </p>
-            <FontAwesomeIcon icon={faBookmark} />
+            <p className="cursor-pointer"><FontAwesomeIcon icon={faBookmark} /></p>
           </div>
         </div>
 

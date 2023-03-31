@@ -4,7 +4,7 @@
         "author": "John Smith",
         "title": "10 Tips for Writing Clean Code",
         "image": "https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1506&q=80",
-        "cover_image": "https://example.com/blog1/cover.jpg",
+        "cover_image": "https://media.istockphoto.com/id/1390285717/photo/asian-programmer-writing-code-on-a-laptop.jpg?s=612x612&w=0&k=20&c=mRD30S9Dlqws614cEzJ1Hieipf_O8HXv9Cppw1eXdjs=",
         "author_image": "https://media.istockphoto.com/id/1355110818/photo/studio-shot-of-a-handsome-and-happy-young-man-posing-against-a-grey-background.jpg?b=1&s=170667a&w=0&k=20&c=fgZ95gwJ2peiSTBM9G8CmGDvHwYaSHDdjg8DBF-a4_k=",
         "read_time": "10 min",
         "published_date": "2022-01-01"
@@ -14,7 +14,7 @@
         "author": "Jane Doe",
         "title": "An Introduction to Machine Learning",
         "image": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80",
-        "cover_image": "https://example.com/blog2/cover.jpg",
+        "cover_image": "https://media.istockphoto.com/id/1366475343/photo/abstract-program-code-on-the-digital-display.jpg?s=612x612&w=0&k=20&c=iyxNW5doI9yUyHrkU0n3RYZJKzZGEaU_S20H8HxhGho=",
         "author_image": "https://media.istockphoto.com/id/910448218/photo/from-here-on-the-only-way-youll-go-is-up.jpg?s=612x612&w=0&k=20&c=DvChZTmGiaRpP7eF_XpDpqGw2Jq5Vu0yVTKSCyXHi1U=",
         "read_time": "15 min",
         "published_date": "2022-02-15"
@@ -24,7 +24,7 @@
         "author": "Tom Johnson",
         "title": "5 Ways to Improve Your Website Performance",
         "image": "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-        "cover_image": "https://example.com/blog3/cover.jpg",
+        "cover_image": "https://media.istockphoto.com/id/1390307383/photo/a-day-at-the-office.jpg?s=612x612&w=0&k=20&c=0sfI2DYO-TNQz1E1uT7xpIkMPR-G6VAAteYjCvaRb-8=",
         "author_image": "https://media.istockphoto.com/id/629517412/photo/i-pride-myself-on-delivering-nothing-but-the-best-results.jpg?s=612x612&w=0&k=20&c=QMc75kSnA4Y1140onn37wVDMXlyJ1vYeK2etxb2lX0s=",
         "read_time": "8 min",
         "published_date": "2022-03-10"
@@ -34,7 +34,7 @@
         "author": "Emily Chen",
         "title": "How to Secure Your Web Application",
         "image": "https://images.unsplash.com/photo-1550439062-609e1531270e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-        "cover_image": "https://example.com/blog4/cover.jpg",
+        "cover_image": "https://media.istockphoto.com/id/1337329904/photo/cyber-security-digital-coding-encryption-background-image.jpg?s=612x612&w=0&k=20&c=ZsnDEwggMgX20Zk21NlsHOK97uVDBGxR4tYRfaNuRac=",
         "author_image": "https://media.istockphoto.com/id/1372735016/photo/shot-of-a-young-businessman-in-his-office.jpg?s=612x612&w=0&k=20&c=QhOQsB9_-VBaKcZSy8jfFtK1kyFgrEkbirVuYfzuSyY=",
         "read_time": "12 min",
         "published_date": "2022-04-02"
@@ -44,7 +44,7 @@
         "author": "David Kim",
         "title": "Debugging Techniques for JavaScript Developers",
         "image": "https://images.unsplash.com/photo-1542903660-eedba2cda473?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-        "cover_image": "https://example.com/blog5/cover.jpg",
+        "cover_image": "https://media.istockphoto.com/id/1265176772/photo/computer-programmer-working-on-laptop.jpg?s=612x612&w=0&k=20&c=O8F--H55xg6YEnCP9FD1pLOLeI1qRJiePEb2oae-Khw=",
         "author_image": "https://media.istockphoto.com/id/1185368785/photo/portrait-of-handsome-young-man-with-crossed-arms.jpg?s=612x612&w=0&k=20&c=FDzs7yF8w0eZydF7CuhXkCYL8yIuumjXlcgwXRUBcyA=",
         "read_time": "20 min",
         "published_date": "2022-05-20"
@@ -54,7 +54,7 @@
         "author": "Maria Rodriguez",
         "title": "Introduction to Responsive Web Design",
         "image": "https://images.unsplash.com/photo-1509718443690-d8e2fb3474b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-        "cover_image": "https://example.com/blog6/cover.jpg",
+        "cover_image": "https://media.istockphoto.com/id/1174690086/photo/software-developer-freelancer-working-at-home.jpg?s=612x612&w=0&k=20&c=loFqul06ggwtkwqSmzZnYfA72Vk7nFQOvDSzAN6YbtQ=",
         "author_image": "https://media.istockphoto.com/id/973066432/photo/work-hard-and-watch-success-take-shape.jpg?s=612x612&w=0&k=20&c=9U1WD4gB8mBDbNljxf81EiAtvwbbaWVVGg-NL39AQSA=",
         "read_time": "10 min",
         "published_date": "2022-06-10"
