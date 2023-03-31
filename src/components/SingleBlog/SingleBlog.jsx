@@ -2,12 +2,12 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBookmark } from "@fortawesome/fontawesome-free-regular";
 
-const SingleBlog = ({blog, handleReadTime,handleBookmark}) => {
-  const { image, author_image, author, published_date, read_time, title,id } = blog;
-
+const SingleBlog = ({ blog, handleReadTime, handleBookmark }) => {
+  const { image, author_image, author, published_date, read_time, title, id } =
+    blog;
 
   return (
-    <div className="border-b last:border-none">
+    <div className="border-b">
       <div>
         <img src={image} alt="blog-image" className="rounded-xl" />
       </div>
@@ -27,7 +27,12 @@ const SingleBlog = ({blog, handleReadTime,handleBookmark}) => {
 
           <div className="flex items-center text-xl text-gray-500">
             <p className="mr-3">{read_time} min read </p>
-            <p onClick={()=> handleBookmark(id)} className="cursor-pointer"><FontAwesomeIcon icon={faBookmark} /></p>
+            <p
+              onClick={() => handleBookmark(id)}
+              className="cursor-pointer hover:text-black"
+            >
+              <FontAwesomeIcon icon={faBookmark} />
+            </p>
           </div>
         </div>
 
@@ -39,7 +44,10 @@ const SingleBlog = ({blog, handleReadTime,handleBookmark}) => {
 
         {/* mark as read button */}
         <div>
-          <button onClick={()=> handleReadTime(read_time)} className="text-[#6047EC] text-xl font-semibold hover:underline">
+          <button
+            onClick={() => handleReadTime(read_time)}
+            className="text-[#6047EC] text-xl font-semibold hover:underline"
+          >
             Mark as read
           </button>
         </div>

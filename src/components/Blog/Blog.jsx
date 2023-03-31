@@ -2,15 +2,15 @@ import React from "react";
 
 const Blog = () => {
   return (
-    <div className="flex flex-col gap-5">
+    <div className="flex flex-col gap-5 my-10">
       <div>
         <h1 className="text-3xl font-bold">
           1. What's the difference between Prop Vs State?
         </h1>
         <p className="text-lg mt-3">
           <span className="font-semibold">State: </span>
-          State is managed within the component. State can be
-          changed(mutable). State is controlled by the react components.
+          State is managed within the component. State can be changed(mutable).
+          State is controlled by the react components.
         </p>
         <p className="text-lg mt-3">
           <span className="font-semibold">Props: </span>
