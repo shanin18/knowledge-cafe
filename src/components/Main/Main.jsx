@@ -2,6 +2,10 @@ import React, { useEffect, useState } from 'react';
 import Blogs from '../Blogs/Blogs';
 import SideCart from '../SideCart/SideCart';
 
+// react Toast
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 const Main = () => {
     const [blogs, setBlogs] = useState([]);
     const [timeSpent, setTimeSpent] = useState(0);
@@ -19,7 +23,14 @@ const Main = () => {
 
         const blog = blogs.find(blog => blog.id === id);
         setTitles([...titles, blog.title])
+        
+        if(titles.includes(blog.title)){
+            toast("This item already has been added")
+        }
+        
     }
+
+    console.log(titles)
 
     useEffect(()=>{
         fetch("data.json")
@@ -36,6 +47,7 @@ const Main = () => {
             <div className='w-2/6'>
                 <SideCart timeSpent={timeSpent} totalBookmark={totalBookmark} titles={titles}></SideCart>
             </div>  
+            <ToastContainer></ToastContainer>
         </div>
     );
 };
